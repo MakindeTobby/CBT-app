@@ -141,12 +141,6 @@ function showQuestions(index) {
     
 `
         }
-        //     <label for="radio1">
-        gh        //     <div class="parentDiv">
-        //         <input type="radio" name="radios" id="radio1">
-        //         <h4>Desk stand</h4>
-        //     </div>
-        // </label>
 
     }
 

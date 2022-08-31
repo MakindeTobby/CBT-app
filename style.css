@@ -224,6 +224,11 @@ section .option_list .option:hover {
     background-color: #bd2031;
 }
 
+section .option_list .option:focus-within {
+    color: #fff;
+    background-color: #bd2031;
+}
+
 .option_list .option:last-child {
     margin-bottom: 0px;
 }

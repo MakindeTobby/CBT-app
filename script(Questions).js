@@ -114,20 +114,9 @@ let questions = [
 ]
 
 
-// `
-// ${questions[0].answer},
-// ${questions[1].answer},
-// ${questions[2].answer},
-// ${questions[3].answer},
-// ${questions[4].answer},
-// ${questions[5].answer},
-// ${questions[6].answer},
-// ${questions[7].answer},
-// ${questions[8].answer},
-// ${questions[9].answer},
-// `
 
-let allAnswer = questions.map((value, index) => {
-    return value.answer;
-})
-console.log(allAnswer);
+
+// let allAnswer = questions.map((value, index) => {
+//     return value.answer;
+// })
+// console.log(allAnswer);
