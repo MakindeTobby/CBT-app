@@ -1,6 +1,6 @@
 'use strict';
 
-let questions = [
+const questions = [
     {
         num: "1",
         question: "Which planet in the solar  system has the largest number of moons?",
@@ -14,8 +14,8 @@ let questions = [
     },
     {
         num: "2",
-        question: "Which is the largest animal in the world?",
-        answer: "Blue Whale",
+        question: "Which is the largest animal on land?",
+        answer: "Elephant",
         options: [
             "Elephant",
             "Rhino",
@@ -113,10 +113,3 @@ let questions = [
     },
 ]
 
-
-
-
-// let allAnswer = questions.map((value, index) => {
-//     return value.answer;
-// })
-// console.log(allAnswer);

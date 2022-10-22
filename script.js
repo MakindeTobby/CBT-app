@@ -33,7 +33,6 @@ start_btn.onclick = () => {
     }
     else {
         document.querySelector(".info_box").hidden = false;
-        console.log(named.value)
         displayName.innerHTML = `<b>${named.value}</b>`;
         namedValue = named.value
         named.value = " ";
@@ -87,9 +86,7 @@ prev_btn.onclick = () => {
         userScore = 0;
         showQuestions(que_count);
         queCounter(que_numb)
-    } else {
-        console.log("start of questions")
-    }
+    } 
 }
 next_btn.onclick = () => {
     if (que_count < questions.length - 1) {
@@ -97,8 +94,6 @@ next_btn.onclick = () => {
         que_numb++;
         showQuestions(que_count);
         queCounter(que_numb)
-    } else {
-        console.log("End of questions")
     }
 }
 submit_btn.onclick = () => {
@@ -148,7 +143,6 @@ function showQuestions(index) {
 
 function selectedAnswer(opt) {
     sel_ans[que_count] = opt;
-    console.log(sel_ans)
 }
 function queCounter(index) {
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
@@ -166,7 +160,6 @@ function showResultBox() {
         //checks if the answer provided in the questions array is equall to the sel_ans based on  same index
         if (questions[i].answer == sel_ans[i]) {
             userScore += 10; //if answer is correct add 5 point to points variable
-            console.log(userScore)
         }
     }
     document.querySelector(".quiz_box").hidden = true;
